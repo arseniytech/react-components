@@ -1,6 +1,6 @@
-function ProfileCard() {
-  const skills = ['HTML', 'CSS', 'React']
+const skills = ['HTML', 'CSS', 'React']
 
+export const ProfileCard = () => {
   return (
     <section className="task-block">
       <div className="profile-card">
@@ -16,5 +16,3 @@ function ProfileCard() {
     </section>
   )
 }
-
-export default ProfileCard

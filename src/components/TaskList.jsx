@@ -1,6 +1,6 @@
-function TaskList() {
-  const tasks = ['Позавтракать', 'Проверить почту', 'Сделать зарядку', 'Выпить стакан воды']
+const tasks = ['Позавтракать', 'Проверить почту', 'Сделать зарядку', 'Выпить стакан воды']
 
+export const TaskList = () => {
   return (
     <section className="task-block">
       <ul>
@@ -11,5 +11,3 @@ function TaskList() {
     </section>
   )
 }
-
-export default TaskList

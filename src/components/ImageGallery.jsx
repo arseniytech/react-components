@@ -4,7 +4,7 @@ const images = [
   { src: 'https://picsum.photos/seed/react3/300/200', alt: 'Третья картинка галереи' },
 ]
 
-function ImageGallery() {
+export const ImageGallery = () => {
   return (
     <section className="task-block">
       <div className="gallery">
@@ -15,5 +15,3 @@ function ImageGallery() {
     </section>
   )
 }
-
-export default ImageGallery

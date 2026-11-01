@@ -1,4 +1,4 @@
-function Greeting() {
+export const Greeting = () => {
   return (
     <section className="task-block">
       <h1>Привет, мир!</h1>
@@ -6,5 +6,3 @@ function Greeting() {
     </section>
   )
 }
-
-export default Greeting
